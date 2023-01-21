@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>SFCV : les services</title>
+</head>
+
+<body>
+    <div id="entete"><!--c'est la partie où l'on retrouve le logo et le nom du site-->
+        <a href="index.html"><img src="images/logo.png" alt="Image LOGO"></a>
+        <h1>SFCV</h1>
+        <h3>N°1 des Caves à Vin</h3>
+    </div>
+    <hr>
+
+    <div id="menu"><!--ici on peux naviguer sur les différentes pages du site-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li><!--li définit un élément de liste-->
+                <li><a href="produits.html">Produits</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div id="bloc"><!--le bloc contient un tableau, une vidéo, un titre et un paragraphe-->
+        <h2>Nos tarifs</h2>
+        <table>
+            <tr><!--tr permet de définir une ligne de tableau-->
+                <th>Modèle</th><!--th permet de définir une cellule d'en-tête de tableau-->
+                <th>Tarif</th>
+            </tr>
+            <tr>
+                <td>AV 175</td><!--td permet de définir une cellule de données de tableau-->
+                <td>Veuillez nous contacter</td>
+            </tr>
+            <tr>
+                <td>AV 205</td>
+                <td>Veuillez nous contacter</td>
+            </tr>
+            <tr>
+                <td>CV 183</td>
+                <td>Veuillez nous contacter</td>
+            </tr>
+        </table>
+        
+        <h2>Notre catalogue</h2>
+        <a href="documents/catalogue.pdf">alt : catalogue.pdf</a><!--a href permet d'ajouter un lien-->
+
+        <h2>Visite d'une cave</h2>
+        <p>La cave à vin du restaurant de Michel Rostang à Paris est une des caves<!--p est utilisé pour écrire des paragraphes-->
+            maison depuis 20 ans, nous emmène à sa découverte.
+        </p>
+            
+        <video src="videos/visite.mp4" controls width="370">video visite de la cave</video><!--avec vidéo on peut ajouter une video mp4-->
+    </div>
+    <hr>
+
+    <div id="pied"><!--cette partie est définit comme le pied de page-->
+        <p>© SFCV - <a href="documents/mentions.txt">Mentions légales</a></p>
+        <p>L'abus d'alcool est dangereux pour la santé, à consommer avec modération. </p>
+    </div>
+</body>
+</html>
